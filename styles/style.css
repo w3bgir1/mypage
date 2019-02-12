@@ -141,8 +141,8 @@ h4 {
 
 @media screen and (max-width: 600px) {
     .main {
-        margin: 1%;
-        padding: 1%;
+        margin: 2%;
+        padding: 2%;
     }
     .fact {
         font-size: 0.8em;
