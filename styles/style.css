@@ -1,0 +1,150 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    margin: 2em;
+    margin-bottom: 0;
+    text-align: center;
+    color: #555555;
+}
+footer ion-icon {
+    font-size: 150%;
+}
+
+footer a {
+    color: #555555;
+}
+
+footer a:visited,
+footer a:active,
+footer a:hover {
+    color: #555555;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: center;
+    color: #555555;
+    border-radius: 40px;
+    padding: 2em 0;
+}
+
+h1 {
+    text-align: center;
+    
+    text-decoration-color: #f9ca24;
+}
+
+h2 {
+    text-align: center;
+    font-size: 110%;
+}
+
+h4 {
+    font-size: 0.7em;;
+}
+
+.bio img {
+    display: block;
+    margin: 1em auto;
+    width: 95%;
+    box-shadow: 0 4px 4px #efefef;
+}
+
+.bio {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 2px #efefef;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 1em;
+    margin: 1em;
+}
+
+.bio p {
+    padding: 0 1.2em;
+}
+
+.facts {
+    display: flex;
+    margin: 1em;
+    text-align: center;
+}
+
+.fact {
+    width: 33%;
+    float: top;
+    padding: 1em;
+}
+
+.facts img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.btn {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 1em 2em 1em;
+}
+.getFact-btn {
+    outline: none;
+    border-radius: 30px;
+    font-size: 1em;;
+    color: #555555;
+    padding: 1.2em;
+    background: linear-gradient(to bottom, #f9ca24, #f6e58d);
+    border: none;
+    
+}
+
+.getFact-btn:active {
+    border: 0;
+    color: #30336b;
+    background: linear-gradient(to top, #f9ca24,#f6e58d);
+}
+
+.weather {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 2px 2px #efefef;
+    justify-content: center;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.weather p {
+    padding: 0 0 .6em;
+    margin: 0;
+    font-size: 80%;
+}
+
+.weather h4 {
+    font-size: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.weather img {
+    display: block;
+    float: right;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        margin: 1%;
+        padding: 1%;
+    }
+    .fact {
+        font-size: 0.8em;
+    }
+  }
